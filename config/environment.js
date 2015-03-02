@@ -43,5 +43,13 @@ module.exports = function(environment) {
 
   }
 
+  ENV['simple-auth'] = {
+    authorizer: 'authorizer:custom',
+    authenticationRoute: 'login',
+    session: 'session:withCurrentUser'
+  }
+
+  // ENV['simple-auth'].session = 'session:custom'
+
   return ENV;
 };
