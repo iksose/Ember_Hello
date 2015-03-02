@@ -1,5 +1,6 @@
 // @import 'bower_components/bootstrap-sass-official/assets/stylesheets/_bootstrap';
 @import 'bower_components/fontawesome/scss/font-awesome';
+//left nav
 @media (min-width: 768px) {
   .navbar-collapse {
     height: auto;
@@ -37,4 +38,11 @@
   .navbar-collapse .navbar-nav.navbar-right:last-child {
     margin-right: 0;
   }
+}
+//end left nav
+#user-info > div {
+  display: inline;
+}
+#user-info > div > h3 {
+  display: inline;
 }
