@@ -1,1 +1,6 @@
-Welcome to vehicles
+{{#each vehicle in model itemController="vehicle" }}
+  {{vehicle-form submit="createUser" cancel="cancelUserCreation" obj=vehicle editTodo='poo'}}
+{{/each}}
+<button class='btn' {{action "addVehicle"}}>Add Vehicle</button>
+
+{{shitStarter}}
