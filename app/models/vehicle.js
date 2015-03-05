@@ -8,8 +8,12 @@
 import Ember from 'ember';
 
 var DEFAULTS = {
-  id: 1,
-  name: "chad"
+  year: "",
+  make: "",
+  models: "",
+  trim: "",
+  zip: "",
+  country: ""
 };
 
 var Vehicle = Ember.Object.extend(DEFAULTS);

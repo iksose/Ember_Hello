@@ -9,13 +9,6 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
     return this.vehicleArray;
   },
   actions: {
-    createUser: function(user) {
-      console.log(user);
-    },
-
-    cancelUserCreation: function() {
-      console.log("canceled")
-    },
     addVehicle: function() {
       this.vehicleArray.pushObject(Vehicle.create());
     }

@@ -1,5 +1,5 @@
 {{#each vehicle in model itemController="vehicle" }}
-  {{vehicle-form submit="createUser" cancel="cancelUserCreation" obj=vehicle editTodo='poo'}}
+  {{vehicle-form vehicle=vehicle editTodo='poo'}}
 {{/each}}
 <button class='btn' {{action "addVehicle"}}>Add Vehicle</button>
 
